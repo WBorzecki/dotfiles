@@ -11,6 +11,15 @@ $line_break\
 $python\
 $character"""
 
+[username]
+style_user = 'bold yellow'
+format = "[$user]($style) "
+
+[hostname]
+ssh_only = true
+style = 'bold purple'
+format = "[$hostname]($style) "
+
 [directory]
 style = "blue"
 
